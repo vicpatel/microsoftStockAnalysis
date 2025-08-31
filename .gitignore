@@ -1,0 +1,32 @@
+**`.gitignore`**
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.csv
+!Microsoft_stock_data.csv
+!Microsoft_stock_data_cleaned.csv
+
+# IDE files
+.idea/
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
